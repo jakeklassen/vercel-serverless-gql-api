@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "env": {
+    "MONGO_URI": "@serverless-gql-mongo-uri"
+  },
+  "routes": [
+    {
+      "src": "/((?!api).*)",
+      "dest": "/index.html"
+    }
+  ]
+}
